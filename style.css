@@ -82,6 +82,7 @@ nav button {
   font-family: Azeret Mono;
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
 }
 /* banner secion end */
 
@@ -125,7 +126,7 @@ nav button {
   width: 946px;
   height: 336px;
   margin: 32px auto;
-  padding: 48px;
+  padding: 45px;
   background: linear-gradient(
     90deg,
     rgb(255, 255, 255),
@@ -219,7 +220,7 @@ nav button {
   padding: 12px 12px 12px 16px;
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
-  margin-right: 361px;
+  margin-right: 359px;
   cursor: pointer;
 }
 
@@ -501,7 +502,6 @@ nav button {
 
 .support-content {
   text-align: center;
-  
 }
 
 .support-content h1 {
@@ -531,7 +531,7 @@ nav button {
 .input-items input {
   font-size: 12px;
   font-weight: 400;
-  padding:18px 90px 18px 20px; 
+  padding: 18px 90px 18px 20px;
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 8px;
   background: rgb(255, 255, 255);
@@ -550,12 +550,10 @@ nav button {
   font-size: 14px;
   font-weight: 600;
   margin-top: 25px;
+  cursor: pointer;
 }
 
-
 /* need support section end */
-
-
 
 /* footer section start */
 footer {
@@ -578,15 +576,13 @@ footer h4 {
 }
 
 .footer-logo {
-display: flex;
-gap: 22px;
-margin-right: -32px;
-
+  display: flex;
+  gap: 22px;
+  margin-right: -32px;
 }
 
 .footer-logo img {
-  width:36px ;
-  height:36px ;
-  
+  width: 36px;
+  height: 36px;
 }
 /* footer section end */
