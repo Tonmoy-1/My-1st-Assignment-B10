@@ -554,3 +554,39 @@ nav button {
 
 
 /* need support section end */
+
+
+
+/* footer section start */
+footer {
+  display: flex;
+  width: 100%;
+  /* border: 2px solid red; */
+  margin-top: 80px;
+  padding: 30px 150px 16px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  justify-content: space-between;
+}
+footer h4 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  margin-left: -70px;
+}
+
+.footer-logo {
+display: flex;
+gap: 22px;
+margin-right: -32px;
+
+}
+
+.footer-logo img {
+  width:36px ;
+  height:36px ;
+  
+}
+/* footer section end */
